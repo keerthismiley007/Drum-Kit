@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    
+}
+
+body{
+    background-color: #452645;
+}
+.heading{
+    margin:25px 0px;
+    text-align: center;
+    font-size: 40px;
+    color: #fff;;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    
+}
+.first,.second,.third{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.first div,.second div,.third div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 150px;
+    width: 150px;
+    background-color: #452645;
+    border: 2px solid ;
+    border-image: linear-gradient(to left,#c917c9,#7f2f7f)1;
+
+}
+button{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align:start;
+    background-color: #452645;
+    font-size:40px;
+    color: #fff;
+    border-style:none;
+    border-color:unset;
+    appearance: none;
+    border-image: none;
+}
+button:focus-visible{
+    outline: none;
+}
+p{
+    margin-top:30px;
+    font-size: 30px;
+}
+ .first div:hover{
+  
+        color: white;
+        box-shadow: 0 5px 15px #afe0f5;
+      
+}
+.second div:hover{
+  
+    color: white;
+    box-shadow: 0 5px 15px #afe0f5;
+  
+}
+.third div:hover{
+  
+    color: white;
+    box-shadow: 0 5px 15px #afe0f5;
+  
+}
+button h1{
+    font-size: 1em;
+}
